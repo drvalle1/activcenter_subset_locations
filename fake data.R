@@ -1,9 +1,9 @@
 rm(list=ls(all=TRUE))
-set.seed(9)
+set.seed(13)
 
 #basic setup
 n.tsegm=400
-n.ac=10
+n.ac=5
 n.grid=100
 n=floor(runif(n.tsegm,min=0,max=900))
 
